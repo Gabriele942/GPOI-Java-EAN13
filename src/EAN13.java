@@ -1,18 +1,39 @@
+/**
+ * @author Gabriele Spica
+ * @version:
+ * @since 10/05/2023
+*/
 public class EAN13 {
     
     private String codice;
 
+    /** 
+     * @param c variabile che indica il codice a 13 cifre da analizzare
+    */
+
+    
+
    
     public void setCodice(String c){
+
+        /**Funzione che ci permette di impostare la variabile c con un valore a nostro inserimento */
         codice = c;
     }
 
     public String getCodice(){
+
+        /** Funzione che ci permette di ricevere il codice precedentemente inserito in stampa
+         */
         return codice;
     }
 
 
+    /**
+     * @return
+     */
     public boolean verificaCodice(){
+
+        /** Funzione che ci permette di verificare che il codice ha tutti i prerequisiti per essere validi */
 
         // Verifica se l'attributo codice è vuoto o nullo
         if (codice.equals(null) || codice == ""){
