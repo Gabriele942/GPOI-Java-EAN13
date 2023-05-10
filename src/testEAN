@@ -1,0 +1,19 @@
+
+public class testEAN{
+    @Test 
+    - init()
+    
+    - testEanVerificaCodiceValido()
+
+
+
+    - testEanVerificaCodiceNonValido()
+
+
+
+    - testEanVerificaCodiceLunghezzaNonValida()
+
+
+
+    - testEanVerificaCodiceVuoto()
+}
